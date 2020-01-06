@@ -190,7 +190,7 @@ html, body {
 }
 
 /*
- * But let's hide the middle one.
+ * hide the middle one.
  */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
@@ -199,7 +199,7 @@ html, body {
 }
 
 /*
- * Ohyeah and the last one should go the other direction
+ * last one should go the other direction
  */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
@@ -238,7 +238,7 @@ html, body {
 }
 
 /*
- * And let's slide it in from the left
+ * slide it in from the left
  */
 #menuToggle input:checked ~ ul
 {

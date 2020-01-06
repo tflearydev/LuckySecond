@@ -213,8 +213,9 @@ html, body {
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
+  width: 100vw;
+  height: 100vh;
+  margin: -50px 0 0 -17px;
   padding: 50px;
   padding-top: 125px;
   
@@ -235,6 +236,7 @@ html, body {
 {
   padding: 10px 0;
   font-size: 22px;
+  text-align: center;
 }
 
 /*
@@ -250,4 +252,11 @@ html, body {
     #menuToggle {
         display: none;
     }
+}
+
+
+/* cards start here */
+
+.card-columns {
+    margin-top: 10px;
 }

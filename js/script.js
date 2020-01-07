@@ -13,3 +13,17 @@ function startTime() {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
   }
+
+
+  
+  
+  
+    var d = new Date();
+    var h2 = d.getHours();
+    var m2 = d.getMinutes();
+    var s2 = d.getSeconds();
+  
+  
+  document.getElementById("currentTime").innerHTML = h2 + ":" + m2 + ":" + s2;
+
+  

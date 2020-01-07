@@ -217,7 +217,7 @@ html, body {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  margin: -50px 0 0 -17px;
+  margin: -50px 0 0 -16px;
   padding: 50px;
   padding-top: 125px;
   
@@ -387,6 +387,14 @@ div.foo{
 @media screen and (max-width: 578px) {
   .glow {
     width: 100vw;
+    
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ad {
+    height: 50px;
+    width: 320px;
     
   }
 }

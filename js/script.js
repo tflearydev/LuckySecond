@@ -25,5 +25,5 @@ function startTime() {
   
   
   document.getElementById("currentTime").innerHTML = h2 + ":" + m2 + ":" + s2;
-
+  document.getElementById("currentTime").style.textDecoration = "underline";
   

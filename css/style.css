@@ -383,3 +383,10 @@ div.foo{
 .hr {
     font-weight: 400;
 }
+
+@media screen and (max-width: 578px) {
+  .glow {
+    width: 100vw;
+    
+  }
+}

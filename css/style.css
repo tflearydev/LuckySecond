@@ -406,3 +406,20 @@ div.foo{
     
   }
 }
+
+.info {
+  background-color: whitesmoke; border: none
+}
+
+.greenText {
+  color: green
+}
+
+.amt {
+  margin-top: 10px
+}
+
+.cashapp {
+  color: whitesmoke;
+  text-decoration: underline;
+}
